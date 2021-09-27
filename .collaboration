@@ -96,19 +96,6 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "PCPage/页面1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T16:59:57.5378976+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json"
-    ]
-  },
-  {
     "ModuleName": "MasterPCPage/FGC_母版页",
     "ModuleType": 3
   },
@@ -177,42 +164,5 @@
     },
     "LockDateTime": "2021-09-27T16:53:19.6368743+08:00",
     "ModuleType": 7
-  },
-  {
-    "ModuleName": "PCPage/页面2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T16:59:57.5378976+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\文件夹1\\页面2.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/页面3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T16:59:57.5378976+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\文件夹1\\页面3.json"
-    ]
-  },
-  {
-    "ModuleName": "Pages/文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T16:59:57.5378976+08:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": []
   }
 ]
