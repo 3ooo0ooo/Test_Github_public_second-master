@@ -137,7 +137,17 @@
   },
   {
     "ModuleName": "Table/buildintable",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T17:56:12.8002809+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\buildintable.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -146,7 +156,17 @@
   },
   {
     "ModuleName": "Table/ddd",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T17:56:12.8002809+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ddd.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   }
 ]
