@@ -1,0 +1,434 @@
+{
+  "Rows": {
+    "Count": 11
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 14,
+    "DefaultSize": 40.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=表信息!tableName"
+                      }
+                    ]
+                  },
+                  "value": "test_skip_1",
+                  "Id": "2c2392e4-6553-479c-91aa-2b68eb664e0a"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=表信息!I:M"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "07ebe62c-bb50-45d8-b369-c0f902f2da77"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=表信息!B:I"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "72bd612a-4d4e-4769-9128-3b73061fd56f"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_1",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要删除吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 4,
+              "ColumnBindingInfo": {
+                "TableName": "test_skip_1",
+                "ColumnName": "ID"
+              },
+              "Value": "100",
+              "Id": "963f9eff-6c0d-45d8-b0ba-b2d8e736b21c"
+            },
+            "UpdateValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "test_skip_2",
+            "UpdateType": "delete",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定要删除吗？",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 4,
+              "ColumnBindingInfo": {
+                "TableName": "test_skip_2",
+                "ColumnName": "ID"
+              },
+              "Value": "100",
+              "Id": "8e33fcb7-21fb-4a01-887d-2b905d9f894c"
+            },
+            "UpdateValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_1",
+        "RowIndex": 2,
+        "ColumnIndex": 1,
+        "ColumnCount": 7,
+        "RowCount": 8,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "2,9": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "test_skip_2",
+        "RowIndex": 2,
+        "ColumnIndex": 9,
+        "ColumnCount": 4,
+        "RowCount": 8,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,1": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "ID"
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "文本"
+      }
+    },
+    "3,3": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "整数"
+      }
+    },
+    "3,4": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "小数"
+      }
+    },
+    "3,5": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "日期"
+      }
+    },
+    "3,6": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "时间"
+      }
+    },
+    "3,7": {
+      "BindingInfo": {
+        "TableName": "test_skip_1",
+        "ColumnName": "是_否"
+      }
+    },
+    "3,9": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "ID"
+      }
+    },
+    "3,10": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "文本"
+      }
+    },
+    "3,11": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "整数"
+      }
+    },
+    "3,12": {
+      "BindingInfo": {
+        "TableName": "test_skip_2",
+        "ColumnName": "小数"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "DarkGray",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "2,1": 1,
+      "2,2": 2,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 3,
+      "2,9": 1,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 3,
+      "3,1": 4,
+      "3,7": 5,
+      "3,9": 4,
+      "3,12": 5,
+      "4,1": 4,
+      "4,5": 5,
+      "4,7": 5,
+      "4,9": 4,
+      "4,12": 5,
+      "5,1": 4,
+      "5,5": 5,
+      "5,7": 5,
+      "5,9": 4,
+      "5,12": 5,
+      "6,1": 4,
+      "6,5": 5,
+      "6,7": 5,
+      "6,9": 4,
+      "6,12": 5,
+      "7,1": 4,
+      "7,5": 5,
+      "7,7": 5,
+      "7,9": 4,
+      "7,12": 5,
+      "8,1": 6,
+      "8,2": 7,
+      "8,3": 7,
+      "8,4": 7,
+      "8,5": 8,
+      "8,7": 5,
+      "8,9": 4,
+      "8,12": 5,
+      "9,1": 6,
+      "9,2": 7,
+      "9,3": 7,
+      "9,4": 7,
+      "9,5": 7,
+      "9,6": 7,
+      "9,7": 8,
+      "9,9": 6,
+      "9,10": 7,
+      "9,11": 7,
+      "9,12": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "4,1,6,7",
+    "4,9,6,4",
+    "0,0,1,6",
+    "1,6,1,2",
+    "1,11,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "tableName",
+      "Formula": "表信息!$A$1"
+    }
+  ]
+}//MThIxM3nQB+R7OVRim3OUeMHMkRzEKMwcLNnqVGTBVVWZ+fuAEyuSaGzdGJMYVToNgy6gcQMFdM1CY2SK1/3cWXc/hNyGkeKrIPFRYNRasqSTYkWWfFxzSUrx6vXCeeJVeyLmVlWxT1KfWI7e5NuXV2mDRJJXUmHraqWFD/Mpmx/hD7dcqfMQbKrQ+6BcMkMf+abZJp4cbUUnBNIdpXq1S+ykiZqeISNhFDy8q1RLfn8u2BHO4pkgnaWqkzi75BUHixdWoWasH7a89aE8MsG/puGKpNx5Z58JQ4uszfa5pZ6zhA3lw5m0wYcjXlulLOtV7spEP3X9m9+qukq821MayZGgRPz+EUeLptetyOeGo59rh9pqEiqRL2pmoCYcR91KZPlUX3tZAmQ1QW9dGGiMfqqkEudQCgG5YeQAxZ8BR4nID2mgRsUJYPiKtrMwh1qZMA6sMYzN7eW/gvZx5o48o8rPjNRtZlAHpLC362Wavn0Gd3rRw1omtMveoW1QWI5kzQeGg0Wmi6qqEd2vGF/3qqwZG7JpH8vJR9JEV9mm/qM/RGM6S2RnkXUhbCFhmXemdv6LFfItyWxRGE1jIUHOQ0vmzdF1B1TMalbrq9+s1ooPkzHz177aRDehWKp64JcNunhRC5wx2Tlk2uUEGoLnGC8Frwt0U191PwqczFxRD+mXGjmlfkTioE0wOIxogZAWIurCjHZSufgdmG9AZUOoB9tODCdl1z2gyCKt3ofxiv8p4gHDnAV9hqqE5WilkrtsMpMTLhJgc/dRp1LKLq8VnG4M/IW7s//0oVQHBPiW2l6AiQz54EQ4/7OZKYkjUOW+OLvQ1ClaJ5FNaCSAXUElvLOypBCSIST9VqANgsEuewm2O/3HXdc/Gr9eV15ydy92+p7ZAIXe3ynJoxT0cc9Lw==|920

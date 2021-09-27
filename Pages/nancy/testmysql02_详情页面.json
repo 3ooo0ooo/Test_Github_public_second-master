@@ -1,0 +1,326 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "文本:",
+    "7,6": "整数:",
+    "9,6": "小数:",
+    "11,6": "日期:",
+    "13,6": "时间:",
+    "15,6": "是_否:",
+    "17,6": "用户:",
+    "19,6": "图片:",
+    "26,6": "附件:",
+    "33,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "id"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "text"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "INT"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "小数"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "date"
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "time"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "是_否"
+      }
+    },
+    "17,14": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "用户"
+      }
+    },
+    "19,14": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "图片"
+      }
+    },
+    "26,14": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
+          "ReplaceWhenOneFile": true
+        },
+        "TemplateKey": "_RS_Normal_Style2"
+      },
+      "BindingInfo": {
+        "TableName": "testmysql02",
+        "ColumnName": "附件"
+      }
+    },
+    "33,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=testmysql02_详情页面!K34"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "9348eee6-7055-4796-9f52-a7b731f10873"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "testmysql02",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "6d10c6c3-de36-4ebf-afc0-5bc1ab764f17"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=testmysql02_详情页面!K34"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "f74feb84-2897-4bc0-8abe-d3e1bed78989"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "testmysql02",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "86eb1b77-3280-4858-9f7d-56bb81718625"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "33,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "9,6": 0,
+      "11,6": 0,
+      "13,6": 0,
+      "15,6": 0,
+      "17,6": 0,
+      "19,6": 0,
+      "26,6": 0,
+      "26,14": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,14,1,6",
+    "19,14,6,6",
+    "26,14,6,6",
+    "33,10,1,4",
+    "33,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//R0AcOC42symQWKVkwv89ApAJbCLYASP7exDQ/qq3Eg4zHepKbeou51oiL3qCL711PHnm3oV7edyd1/pTp6AGRt35ExhnJDVoqVBAVu1MBPUM7IUeMmFVMkzW0CgCiVzbc+jbTanVHR/tkuo/YbWYVnJWUJWQkhd1InG6Qp6egJHdoo5COmg357uCiqv1Rei5XsTn1KdjlSfeKOMOsKSKM89iSHGFuIuCKSHCMbrCsY5YiXeybXpH/4DZA7dimE4u0GsFzDx8tDGJ1Y9/Y+MF5dF14RVEeyaImscwhYOdwoe0pNd1gPbPwtPSWlaiNHw3Udk4mdaAJi9rGR2PKESJ0sTnjycgcN+9Cms9Xq2ojOpaXNxCNc+caUp+m/tS8/LqHW+jZoYqJUSMhd3OBRHfUu28hzJMub3AdgwKBojLVlW9cs3FTdjVXm4n6DHYqFotAmiNLys9o1KZebMdz6cDpLtnWZgJrWPD5JtDMIU6Ylg0av7BFR7MnqsXMulMermARazCylHyoz+pg0nOsS7b6Sa3Jt4t3hagckS+Mcg980OTOxRtnq+rePXV9bVqdR6s9S4DHr+HGqNajGHA0rGh0r9U63TGSBAW0LjU53N6ABjBBkmhMLVNqEjHrrEblquO1KQ27iZztRCAC29iL5WyoTTBBYm7NA4dg9f0t0xuCmcNx8OXUMax4RYxb96FoMJCaYebmri6teQ7z6jb9q9mJz3unTP/T290ZfgUFz4mZEz+hLk227i9BD0B8TkfwEGfzZzL0BeCZ7+7XHif4hAheUK+uxhwO35LluV96RQFf5QgVeDhYCjhNKL/CELgAU8g6zv/AnRmIy2DKMLG9nM3AREeAQv03YVwn3KUn2JY9SzBszWuFgvaivDXz3CiFFUg09cATIBbZI9pS7bae79rrA==|920
