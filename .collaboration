@@ -129,16 +129,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T17:08:49.1590073+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -146,12 +137,6 @@
   },
   {
     "ModuleName": "Table/buildintable",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T17:55:46.9873783+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -161,12 +146,6 @@
   },
   {
     "ModuleName": "Table/ddd",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T17:55:46.9873783+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
