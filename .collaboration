@@ -170,16 +170,6 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "Table/sqlservertest",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T17:08:49.1590073+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Table/damengtable",
     "State": 3,
     "LockedBy": {
