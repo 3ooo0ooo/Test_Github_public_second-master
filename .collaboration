@@ -177,15 +177,5 @@
       "ForguncyDB.sqlite3"
     ],
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Table/aaa",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-09-27T17:59:51.9333733+08:00",
-    "ModuleType": 7
   }
 ]
