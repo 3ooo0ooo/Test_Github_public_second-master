@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
   <IntegrateWithOtherApplication>
-    <Password>iM!OPY%MdXDZ</Password>
+    <Password>rSQ~9yaohtE6</Password>
   </IntegrateWithOtherApplication>
-  <NotAllowAnonymousAccessData>True</NotAllowAnonymousAccessData>
   <StartDateFiscalYear>1</StartDateFiscalYear>
-  <UserServicePort>24167</UserServicePort>
-  <WebSitePort>33253</WebSitePort>
+  <UserServicePort>33785</UserServicePort>
+  <WebSitePort>42872</WebSitePort>
 </ApplicationSettings>
