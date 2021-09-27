@@ -171,11 +171,29 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T16:54:58.4808086+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面2.json"
+    ]
   },
   {
     "ModuleName": "PCPage/页面3",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-09-27T16:54:58.4808086+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面3.json"
+    ]
   },
   {
     "ModuleName": "Pages/文件夹1",
